@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Albert Sans";
+    src: url("../AlbertSans.ttf");
+}
+header {
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffffff;
+}
+body {
+    background-color: #E60012;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E60012;
+    
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    font-family: "Albert Sans", sans-serif;
+}
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+.game1 {
+    background-color: #E60012;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.2em;
+}
+.game1 img {
+    width: 75%;
+    height: auto;
+}
+.game2 {
+    background-color: #E60012;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.2em;
+}
+.game2 img {
+    width: 75%;
+    height: auto;
+}
+.Available {
+    background-color: #E60012;
+    color: #ffffff;
+
+    text-align: center;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.6em;
+}
+u {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
+    text-decoration: none;
+}

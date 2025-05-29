@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Albert Sans";
+    src: url("../AlbertSans.ttf");
+}
+header {
+    font-family: "Albert Sans", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #ffffff;
+}
+body {
+    background-color: #E60012;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E60012;
+    
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    font-family: "Albert Sans", sans-serif;
+}
+hr {
+    border: 0;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+main h2{
+    font-family: "Albert Sans", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+.purchase-info {
+        font-family: "Albert Sans", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+}
+.buy {
+    width: 10%;
+}
+.buy:hover {
+    background-color: #ffffff;
+    color: #E60012;
+}
+u {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
